@@ -30,11 +30,17 @@ WebsiteBuilder is a powerful backend solution designed to simplify the creation,
 This project helps developers streamline app security, configuration, and website content management. The core features include:
 
 🛡️ **Secure Authentication**: Implements JWT-based authentication for secure user sessions and API access.
+
 🚦 **Role-Based Access Control**: Utilizes middleware to enforce permissions for `Admin`, `Editor`, and `Viewer` roles, safeguarding sensitive endpoints.
+
 🤖 **AI Content Generation**: Features an endpoint ready to integrate with AI models (like OpenAI or Hugging Face) to generate website content based on user prompts.
+
 🌐 **Dynamic Website Preview**: Dynamically renders website content using Flask and Jinja2, providing a live preview before deployment.
+
 📁 **Full CRUD Operations**: Manages website and user data efficiently with built-in MongoDB interactions.
+
 ⚙️ **Centralized Configuration**: Simplifies environment-specific settings for seamless deployment using a `.env` file.
+
 🚀 **Easy App Initialization**: Provides a streamlined startup script (`run.py`) for local development and testing.
 
 ---
